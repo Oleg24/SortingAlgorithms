@@ -2,9 +2,9 @@ public class selectionSort{
   public static void main(String[] args){
     int []numbers = {10, 5, 3, 7, 2};
 
-    sort(numbers);
+    sort(args);
 
-    printArray(numbers);
+    printArray(args);
   }
 
   public static int[] sort(int[] A){
